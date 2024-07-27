@@ -68,7 +68,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const apiKey = "b03a640e5ef6980o4da35b006t5f2942";
-      const url = `https://api.shecodes.io/weather/v1/current?query=Rabat&key=${apiKey}`;
+      const url = `https://api.shecodes.io/weather/v1/current?query=mogadishu&key=${apiKey}`;
 
       try {
         const response = await axios.get(url);
